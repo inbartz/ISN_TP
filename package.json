@@ -1,0 +1,30 @@
+{
+  "name": "isntp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "author": "Mark Tosques",
+  "license": "ISC",
+  "bin": {
+    "tpcli": "./bin/index.js"
+  },
+  "dependencies": {
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.2"
+  }
+}
